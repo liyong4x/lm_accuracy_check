@@ -1,0 +1,591 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="char_embedding/cnn_0/Reshape_1/shape" out_port_id="0"/>
+		<IR id="18" name="char_embedding/cnn_0/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_3" out_port_id="0"/>
+		<IR id="170" name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/Reshape" out_port_id="0"/>
+		<IR id="87" name="char_embedding/cnn_6/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/add_4" out_port_id="0"/>
+		<IR id="150" name="lstm/lstm_0/LSTMCellWithCachedConcat/add_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/EmbeddingLookupUnique/Unique" out_port_id="0"/>
+		<IR id="4" name="char_embedding/EmbeddingLookupUnique/Unique" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_5" out_port_id="0"/>
+		<IR id="153" name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/add_2" out_port_id="0"/>
+		<IR id="167" name="lstm/lstm_1/LSTMCellWithCachedConcat/add_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_0/Reshape_1" out_port_id="0"/>
+		<IR id="19" name="char_embedding/cnn_0/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/EmbeddingLookupUnique/embedding_lookup" out_port_id="0"/>
+		<IR id="5" name="char_embedding/EmbeddingLookupUnique/embedding_lookup" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/add" out_port_id="0"/>
+		<IR id="101" name="char_embedding/cnn_7/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/Relu" out_port_id="0"/>
+		<IR id="76" name="char_embedding/cnn_5/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/BiasAdd" out_port_id="0"/>
+		<IR id="136" name="lstm/lstm_0/LSTMCellWithCachedConcat/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_0/Reshape" out_port_id="0"/>
+		<IR id="9" name="char_embedding/cnn_0/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_1" out_port_id="0"/>
+		<IR id="142" name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/Max" out_port_id="0"/>
+		<IR id="43" name="char_embedding/cnn_2/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/Reshape" out_port_id="0"/>
+		<IR id="1" name="char_embedding/Reshape/placeholder_port_0" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/add" out_port_id="0"/>
+		<IR id="62" name="char_embedding/cnn_4/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/concat_7" out_port_id="0"/>
+		<IR id="111" name="char_embedding/concat_7" out_port_id="8"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/mul" out_port_id="0"/>
+		<IR id="116" name="char_embedding/dense_0/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/mul_1" out_port_id="0"/>
+		<IR id="126" name="char_embedding/dense_1/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/Reshape_1/shape" out_port_id="0"/>
+		<IR id="109" name="char_embedding/cnn_7/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/Reshape" out_port_id="0"/>
+		<IR id="48" name="char_embedding/cnn_3/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/tr/add" out_port_id="0"/>
+		<IR id="114" name="char_embedding/dense_0/tr/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/add" out_port_id="0"/>
+		<IR id="127" name="char_embedding/dense_1/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/Relu" out_port_id="0"/>
+		<IR id="102" name="char_embedding/cnn_7/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/Sigmoid_1" out_port_id="0"/>
+		<IR id="168" name="lstm/lstm_1/LSTMCellWithCachedConcat/Sigmoid_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_0/add" out_port_id="0"/>
+		<IR id="10" name="char_embedding/cnn_0/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/split:1" out_port_id="1"/>
+		<IR id="160" name="lstm/lstm_1/LSTMCellWithCachedConcat/split" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/BiasAdd" out_port_id="0"/>
+		<IR id="159" name="lstm/lstm_1/LSTMCellWithCachedConcat/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/add_1" out_port_id="0"/>
+		<IR id="163" name="lstm/lstm_1/LSTMCellWithCachedConcat/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/Reshape_1" out_port_id="0"/>
+		<IR id="110" name="char_embedding/cnn_7/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/Reshape/shape" out_port_id="0"/>
+		<IR id="46" name="char_embedding/cnn_3/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/Slice" out_port_id="0"/>
+		<IR id="134" name="1973/Split" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/add_4" out_port_id="0"/>
+		<IR id="173" name="lstm/lstm_1/LSTMCellWithCachedConcat/add_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/Reshape" out_port_id="0"/>
+		<IR id="3" name="char_embedding/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/Sigmoid_1" out_port_id="0"/>
+		<IR id="145" name="lstm/lstm_0/LSTMCellWithCachedConcat/Sigmoid_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/split:2" out_port_id="2"/>
+		<IR id="137" name="lstm/lstm_0/LSTMCellWithCachedConcat/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_4" out_port_id="0"/>
+		<IR id="149" name="ScaleShift/lstm/lstm_0/LSTMCellWithCachedConcat/mul_4" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="Variable_1/read" out_port_id="0"/>
+		<IR id="156" name="Variable_1/read/placeholder_port_0" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Variable_1/read" out_port_id="0"/>
+		<IR id="156" name="Variable_1/read/placeholder_port_0" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/split:1" out_port_id="1"/>
+		<IR id="137" name="lstm/lstm_0/LSTMCellWithCachedConcat/split" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/Reshape" out_port_id="0"/>
+		<IR id="100" name="char_embedding/cnn_7/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/sub" out_port_id="0"/>
+		<IR id="125" name="char_embedding/dense_1/sub/negate_/fused_power" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/Reshape_1" out_port_id="0"/>
+		<IR id="45" name="char_embedding/cnn_2/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/Sigmoid_2" out_port_id="0"/>
+		<IR id="174" name="lstm/lstm_1/LSTMCellWithCachedConcat/Sigmoid_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/tr/Relu" out_port_id="0"/>
+		<IR id="115" name="char_embedding/dense_0/tr/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/Reshape_1" out_port_id="0"/>
+		<IR id="130" name="char_embedding/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/Reshape/shape" out_port_id="0"/>
+		<IR id="98" name="char_embedding/cnn_7/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/Reshape_1/shape" out_port_id="0"/>
+		<IR id="70" name="char_embedding/cnn_4/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/add" out_port_id="0"/>
+		<IR id="49" name="char_embedding/cnn_3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/Sigmoid_2" out_port_id="0"/>
+		<IR id="151" name="lstm/lstm_0/LSTMCellWithCachedConcat/Sigmoid_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/concat_2" out_port_id="0"/>
+		<IR id="178" name="lstm/lstm_1/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_7/Max" out_port_id="0"/>
+		<IR id="108" name="char_embedding/cnn_7/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/Max" out_port_id="0"/>
+		<IR id="30" name="char_embedding/cnn_1/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/Reshape/shape" out_port_id="0"/>
+		<IR id="2" name="char_embedding/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/Reshape_1" out_port_id="0"/>
+		<IR id="32" name="char_embedding/cnn_1/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Variable/read" out_port_id="0"/>
+		<IR id="133" name="Variable/read/placeholder_port_0" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Variable/read" out_port_id="0"/>
+		<IR id="133" name="Variable/read/placeholder_port_0" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/split" out_port_id="0"/>
+		<IR id="137" name="lstm/lstm_0/LSTMCellWithCachedConcat/split" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/split:3" out_port_id="3"/>
+		<IR id="137" name="lstm/lstm_0/LSTMCellWithCachedConcat/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/add" out_port_id="0"/>
+		<IR id="138" name="lstm/lstm_0/LSTMCellWithCachedConcat/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/Reshape_1/shape" out_port_id="0"/>
+		<IR id="96" name="char_embedding/cnn_6/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="feature_soft" out_port_id="0"/>
+		<IR id="177" name="lstm/lstm_1/LSTMCellWithCachedConcat/MatMul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/control_dependency" out_port_id="0"/>
+		<IR id="177" name="lstm/lstm_1/LSTMCellWithCachedConcat/MatMul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/MatMul_1" out_port_id="0"/>
+		<IR id="177" name="lstm/lstm_1/LSTMCellWithCachedConcat/MatMul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/Reshape" out_port_id="0"/>
+		<IR id="22" name="char_embedding/cnn_1/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/add_1" out_port_id="0"/>
+		<IR id="140" name="lstm/lstm_0/LSTMCellWithCachedConcat/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/Reshape" out_port_id="0"/>
+		<IR id="35" name="char_embedding/cnn_2/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/gate/sub" out_port_id="0"/>
+		<IR id="120" name="char_embedding/dense_1/gate/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/Relu" out_port_id="0"/>
+		<IR id="63" name="char_embedding/cnn_4/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/Slice_1" out_port_id="0"/>
+		<IR id="134" name="1973/Split" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/add" out_port_id="0"/>
+		<IR id="36" name="char_embedding/cnn_2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/Tanh_1" out_port_id="0"/>
+		<IR id="152" name="lstm/lstm_0/LSTMCellWithCachedConcat/Tanh_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/Relu" out_port_id="0"/>
+		<IR id="24" name="char_embedding/cnn_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/Relu" out_port_id="0"/>
+		<IR id="50" name="char_embedding/cnn_3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/sub" out_port_id="0"/>
+		<IR id="117" name="char_embedding/dense_0/sub/negate_/fused_power" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/Reshape_1/shape" out_port_id="0"/>
+		<IR id="44" name="char_embedding/cnn_2/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/add" out_port_id="0"/>
+		<IR id="119" name="char_embedding/dense_0/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/Relu" out_port_id="0"/>
+		<IR id="37" name="char_embedding/cnn_2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_0/Relu" out_port_id="0"/>
+		<IR id="11" name="char_embedding/cnn_0/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Reshape/shape" out_port_id="0"/>
+		<IR id="131" name="Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/Sigmoid" out_port_id="0"/>
+		<IR id="164" name="lstm/lstm_1/LSTMCellWithCachedConcat/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_0/Max" out_port_id="0"/>
+		<IR id="17" name="char_embedding/cnn_0/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/EmbeddingLookupUnique/Gather" out_port_id="0"/>
+		<IR id="6" name="char_embedding/EmbeddingLookupUnique/Gather" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/split:2" out_port_id="2"/>
+		<IR id="160" name="lstm/lstm_1/LSTMCellWithCachedConcat/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/Reshape_1/shape" out_port_id="0"/>
+		<IR id="83" name="char_embedding/cnn_5/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/Reshape" out_port_id="0"/>
+		<IR id="74" name="char_embedding/cnn_5/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/Max" out_port_id="0"/>
+		<IR id="69" name="char_embedding/cnn_4/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/Tanh" out_port_id="0"/>
+		<IR id="146" name="lstm/lstm_0/LSTMCellWithCachedConcat/Tanh" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/proj/add" out_port_id="0"/>
+		<IR id="128" name="char_embedding/proj/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/mul" out_port_id="0"/>
+		<IR id="139" name="ScaleShift/lstm/lstm_0/LSTMCellWithCachedConcat/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/Sigmoid" out_port_id="0"/>
+		<IR id="141" name="lstm/lstm_0/LSTMCellWithCachedConcat/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/add_3" out_port_id="0"/>
+		<IR id="148" name="lstm/lstm_0/LSTMCellWithCachedConcat/add_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/tr/add" out_port_id="0"/>
+		<IR id="122" name="char_embedding/dense_1/tr/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/add" out_port_id="0"/>
+		<IR id="161" name="lstm/lstm_1/LSTMCellWithCachedConcat/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_3" out_port_id="0"/>
+		<IR id="147" name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/add_2" out_port_id="0"/>
+		<IR id="144" name="lstm/lstm_0/LSTMCellWithCachedConcat/add_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/Reshape_1/shape" out_port_id="0"/>
+		<IR id="31" name="char_embedding/cnn_1/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/EmbeddingLookupUnique/Unique:1" out_port_id="1"/>
+		<IR id="4" name="char_embedding/EmbeddingLookupUnique/Unique" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/Max" out_port_id="0"/>
+		<IR id="95" name="char_embedding/cnn_6/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/Reshape_1/shape" out_port_id="0"/>
+		<IR id="57" name="char_embedding/cnn_3/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/Reshape_1" out_port_id="0"/>
+		<IR id="71" name="char_embedding/cnn_4/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="softmax_out" out_port_id="0"/>
+		<IR id="180" name="softmax_out" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/Reshape/shape" out_port_id="0"/>
+		<IR id="20" name="char_embedding/cnn_1/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_2" out_port_id="0"/>
+		<IR id="166" name="ScaleShift/lstm/lstm_1/LSTMCellWithCachedConcat/mul_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_1/add" out_port_id="0"/>
+		<IR id="23" name="char_embedding/cnn_1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_5" out_port_id="0"/>
+		<IR id="176" name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/Max" out_port_id="0"/>
+		<IR id="56" name="char_embedding/cnn_3/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/add" out_port_id="0"/>
+		<IR id="75" name="char_embedding/cnn_5/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/Tanh_1" out_port_id="0"/>
+		<IR id="175" name="lstm/lstm_1/LSTMCellWithCachedConcat/Tanh_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/gate/Sigmoid" out_port_id="0"/>
+		<IR id="113" name="char_embedding/dense_0/gate/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/Reshape_1" out_port_id="0"/>
+		<IR id="97" name="char_embedding/cnn_6/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/gate/sub" out_port_id="0"/>
+		<IR id="112" name="char_embedding/dense_0/gate/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/add_3" out_port_id="0"/>
+		<IR id="171" name="lstm/lstm_1/LSTMCellWithCachedConcat/add_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/Reshape/shape" out_port_id="0"/>
+		<IR id="85" name="char_embedding/cnn_6/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_1" out_port_id="0"/>
+		<IR id="165" name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_2/Reshape/shape" out_port_id="0"/>
+		<IR id="33" name="char_embedding/cnn_2/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/concat" out_port_id="0"/>
+		<IR id="135" name="lstm/lstm_0/LSTMCellWithCachedConcat/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/Reshape/shape" out_port_id="0"/>
+		<IR id="59" name="char_embedding/cnn_4/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/mul_2" out_port_id="0"/>
+		<IR id="143" name="ScaleShift/lstm/lstm_0/LSTMCellWithCachedConcat/mul_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/Max" out_port_id="0"/>
+		<IR id="82" name="char_embedding/cnn_5/Max/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/split:3" out_port_id="3"/>
+		<IR id="160" name="lstm/lstm_1/LSTMCellWithCachedConcat/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/split" out_port_id="0"/>
+		<IR id="160" name="lstm/lstm_1/LSTMCellWithCachedConcat/split" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/Relu" out_port_id="0"/>
+		<IR id="89" name="char_embedding/cnn_6/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/Tanh" out_port_id="0"/>
+		<IR id="169" name="lstm/lstm_1/LSTMCellWithCachedConcat/Tanh" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/concat_2" out_port_id="0"/>
+		<IR id="155" name="lstm/lstm_0/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_3/Reshape_1" out_port_id="0"/>
+		<IR id="58" name="char_embedding/cnn_3/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/mul" out_port_id="0"/>
+		<IR id="162" name="ScaleShift/lstm/lstm_1/LSTMCellWithCachedConcat/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/Reshape/shape" out_port_id="0"/>
+		<IR id="72" name="char_embedding/cnn_5/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/concat" out_port_id="0"/>
+		<IR id="158" name="lstm/lstm_1/LSTMCellWithCachedConcat/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/tr/Relu" out_port_id="0"/>
+		<IR id="123" name="char_embedding/dense_1/tr/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BiasAdd" out_port_id="0"/>
+		<IR id="179" name="MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/mul" out_port_id="0"/>
+		<IR id="124" name="char_embedding/dense_1/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/Reshape_1/shape" out_port_id="0"/>
+		<IR id="129" name="char_embedding/Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/Slice_1" out_port_id="0"/>
+		<IR id="157" name="1968/Split" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_4/Reshape" out_port_id="0"/>
+		<IR id="61" name="char_embedding/cnn_4/Reshape/Transpose" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/W/read" out_port_id="0"/>
+		<IR id="0" name="char_embedding/W/read/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/Slice" out_port_id="0"/>
+		<IR id="157" name="1968/Split" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Reshape" out_port_id="0"/>
+		<IR id="132" name="Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_6/add" out_port_id="0"/>
+		<IR id="88" name="char_embedding/cnn_6/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/control_dependency" out_port_id="0"/>
+		<IR id="154" name="lstm/lstm_0/LSTMCellWithCachedConcat/MatMul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_0/LSTMCellWithCachedConcat/MatMul_1" out_port_id="0"/>
+		<IR id="154" name="lstm/lstm_0/LSTMCellWithCachedConcat/MatMul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_0/Reshape/shape" out_port_id="0"/>
+		<IR id="7" name="char_embedding/cnn_0/Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lstm/lstm_1/LSTMCellWithCachedConcat/mul_4" out_port_id="0"/>
+		<IR id="172" name="ScaleShift/lstm/lstm_1/LSTMCellWithCachedConcat/mul_4" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="char_embedding/cnn_5/Reshape_1" out_port_id="0"/>
+		<IR id="84" name="char_embedding/cnn_5/Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_1/gate/Sigmoid" out_port_id="0"/>
+		<IR id="121" name="char_embedding/dense_1/gate/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="char_embedding/dense_0/mul_1" out_port_id="0"/>
+		<IR id="118" name="char_embedding/dense_0/mul_1" out_port_id="2"/>
+	</map>
+</mapping>
